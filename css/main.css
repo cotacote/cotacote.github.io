@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Karla', sans-serif;
+}
+
+header{
+	max-height:1vh;
+}
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/img/pexels-michael-burrows-7129145.jpg");
+  min-height: 75%;
+}
+
+
+.hr1 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left:25%;
+    margin-right: 25%;
+    text-align: center;
+    visibility: hidden;
+}
+
+.hr1:after {
+    background: #fff;
+    padding: 0 4px;
+    top: -13px;
+}
+
+
+.espace_bas{
+    margin-bottom: 64px;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #eeaa4c;
+  width: 0%;
+}
+
+
+fake_recherche{
+	margin-left:16px;
+	margin-right: 16px;
+}
