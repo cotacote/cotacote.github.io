@@ -7,14 +7,17 @@ h1,h2,h3,h4{
     font-family: 'Karla', sans-serif;
 }
 
-header{
-	max-height:1vh;
-}
 .bgimg {
   background-position: center;
   background-size: cover;
   background-image: url("../assets/img/pexels-michael-burrows-7129145.jpg");
   min-height: 75%;
+}
+
+#fake_recherche{
+	font-family: 'Pacifico', cursive;
+	margin-left: 16px;
+	width:100%;
 }
 
 
@@ -50,10 +53,4 @@ header{
   height: 8px;
   background: #eeaa4c;
   width: 0%;
-}
-
-
-fake_recherche{
-	margin-left:16px;
-	margin-right: 16px;
 }
