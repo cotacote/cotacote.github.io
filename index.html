@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cotacote</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/img/cotacote_logo2.png" />
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body id="page">
+
+<!-- Navbar -->
+<div class="w3-top w3-theme-l1">
+ <div class="w3-bar w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hover-white"><i class="fa fa-mobile w3-margin-right fa-lg"></i> Télécharger l'Application</a>
+  <div id="navbar_right" class="w3-right w3-hide-small">
+      <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-flag" aria-hidden="true"></i> Notre Mission</a>
+      <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-handshake-o" aria-hidden="true"></i> Nos Valeurs</a>
+      <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-info-circle" aria-hidden="true"></i>
+ À Propos</a>
+      <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-pencil" aria-hidden="true"></i> Contact</a>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-flag" aria-hidden="true"></i> Notre Mission</a>
+    <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"></i> Nos Valeurs</a>
+    <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-info-circle" aria-hidden="true"></i> À Propos</a>
+    <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-pencil" aria-hidden="true"></i> Contact</a>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-center">
+      <h1 class="w3-round-large w3-padding-16 w3-light-grey"> <i class=" w3-margin-left fa fa-search" aria-hidden="true"></i><span  id="fake_recherche"> producteurs très très locaux dans ma région</span></h1>
+  </div>
+</header>
+
+<!--Juste pour le style-->
+<div class="w3-container w3-padding-16 w3-center w3-khaki">
+</div>
+
+<!-- Mission -->
+<div class="w3-container w3-padding-64 w3-center w3-light-grey">
+    <div class="w3-content">
+        <div id="mission" class="espace_bas">
+            
+            <h2><i class="fa fa-flag w3-text-pale-yellow" aria-hidden="true"></i> Notre super longue mission qui sort du cadre</h2>
+            <p class="w3-center">
+                At vero eos et accusamus et iusto odio dignissimos ducimus
+                qui blanditiis praesentium voluptatum deleniti atque corrupti
+                quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+                similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                Et harum quidem rerum facilis est et expedita distinctio.</p>
+        </div>
+        <!-- Problèmes producteur-->
+        <div id="problemes" class="espace_bas">
+            <div class="w3-cell-row w3-card-4 w3-padding-16 w3-theme-l3" style="width:100%">
+                <div class="w3-container w3-cell">
+                  <img src="assets/img/fl.png"  class="w3-circle w3-image w3-hover-opacity">
+                  <p>Vente directe coûteuse en temps et en moyen technique (site web).</p>
+                </div>
+                <div class="w3-container w3-cell">
+                  <img src="assets/img/arg.png" class="w3-circle w3-image w3-hover-opacity">
+                  <p>Multiplication des intermédiaires et marges imposées réduisent le salaire des producteurs.</p>
+                </div>
+                <div class="w3-container w3-cell">
+                  <img src="assets/img/tomate_rayee.png" class="w3-circle w3-image w3-hover-opacity">
+                  <p>Produits calibrés pour la grande distribution qui implique du gaspillage.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Solution -->
+        <p class="w3-center">
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+        </p>
+    </div>
+</div>
+
+
+<!--Valeurs -->
+<div class="w3-container w3-padding-64 w3-center w3-theme-l2 ">
+    <h2><i class="fa fa-handshake-o" aria-hidden="true"></i> Nos Valeurs</h2>
+    <div class="w3-content">
+        <p class="w3-center espace_bas">
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque ...
+        </p>
+        <div class="w3-cell-row" style="width:100%">
+            <div class="w3-container w3-cell">
+              <img src="/w3images/avatar.jpg" alt="Boss" class=" w3-image w3-circle w3-hover-opacity">
+              <h3>Johnny Walker</h3>
+              <p>Web Designer</p>
+            </div>
+            <div class="w3-container w3-cell">
+              <img src="/w3images/avatar.jpg" alt="Boss" class="w3-image w3-circle w3-hover-opacity">
+              <h3>Johnny Walker</h3>
+              <p>Web Designer</p>
+            </div>
+            <div class="w3-container w3-cell">
+              <img src="/w3images/avatar.jpg" alt="Boss" class="w3-image w3-circle w3-hover-opacity">
+              <h3>Johnny Walker</h3>
+              <p>Web Designer</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--A propos-->
+<div class="w3-container w3-padding-64 w3-center w3-light-gray ">
+    <h2><i class="fa fa-info-circle" aria-hidden="true"></i> À Propos de Nous</h2>
+    <div class="w3-content">
+        <p class="w3-center espace_bas w3-content">
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque ...
+        </p>
+    </div>
+</div>
+
+<!--Juste pour le style-->
+<div class="w3-container w3-padding-16 w3-center w3-khaki">
+</div>
+
+<!--Contact -->
+<div class="w3-container w3-padding-64 w3-center w3-theme-l2 ">
+    <h2 class="espace_bas"><i class="fa fa-pencil" aria-hidden="true"></i> Une remarque, un mot doux ? Écris-nous ci-dessous!</h2>
+    <div class="w3-content">
+        <p><strong>Attention, les messages envoyés via formulaire ne pourront reçevoir de réponse.</strong></p>
+        <form method="post" action="#">
+          <p><textarea class="w3-input w3-padding-16 w3-border" cols="40" rows="5" placeholder="Message" required></textarea></p>
+          <p><button class="w3-button w3-light-grey w3-block" type="submit">Envoyer </button></p>
+        </form>
+        <h4 class="w3-center">Ou alors directement par mail à <a href="mailto:mail@mail.mail">mail@mail.mail</a></h4>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-l1 w3-center">
+  <h4><i class="fa fa-heart" aria-hidden="true"></i> Et maintenant, tu nous rejoins dans l'aventure ? <i class="fa fa-heart" aria-hidden="true"></i></h4>
+  <a class="w3-button w3-large" href="javascript:void(0)" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <div class="espace_bas"></div>
+  <p><img src="assets/img/cotacote_logo2.png" class="w3-image w3-circle" style="max-width:150px;"/></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <a class="w3-button w3-theme-d3" href="#page"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<div class="w3-bottom">
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+</div>
+<script src="js/index.js"></script>
+
+</body>
+</html>
