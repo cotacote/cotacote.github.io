@@ -1,3 +1,5 @@
+
+
 // Script for side navigation
 function w3_open() {
   var x = document.getElementById("mySidebar");
@@ -30,19 +32,3 @@ function progressBarIndicator() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("progressBar").style.width = scrolled + "%";
 }
-
-
-var i = 0;
-var txt = document.getElementById("fake_recherche").textContent; /* The text */
-document.getElementById("fake_recherche").textContent = "";
-var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("fake_recherche").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
-typeWriter();
