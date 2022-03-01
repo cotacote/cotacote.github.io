@@ -24,6 +24,10 @@ header {
     width:50%;
 }
 
+.pb_images{
+    width: 15%;
+}
+
 .hr1 {
     margin-top: 64px;
     margin-bottom: 64px;
@@ -62,10 +66,14 @@ header {
 @media all and (max-width: 700px)
 {
     p{
-        font-size: 100%;
+        font-size: 120%;
     }
 
     #logo{
         width:100%;
+    }
+
+    .pb_images{
+        width: 25%;
     }
 }
