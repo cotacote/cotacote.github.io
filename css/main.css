@@ -24,8 +24,16 @@ header {
     width:50%;
 }
 
+.solu_img{
+    width: 45%;
+}
+
 .pb_images{
     width: 15%;
+}
+
+#moiimg{
+    width: 30%;
 }
 
 .hr1 {
@@ -75,5 +83,13 @@ header {
 
     .pb_images{
         width: 25%;
+    }
+
+    .solu_img{
+        width: 65%;
+    }
+
+    #moiimg{
+        width: 60%;
     }
 }
